@@ -1,0 +1,5 @@
+version: '3'
+services:
+  just:
+    build: .
+    command: tail -F anything
