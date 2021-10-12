@@ -6,6 +6,8 @@ git add-commit -m 'My commit message'
 
 DOCKER
 ------
+# https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
 sudo docker exec -it <>  bash
 sudo docker-compose up
 
