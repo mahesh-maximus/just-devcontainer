@@ -1,0 +1,9 @@
+GIT 
+----
+git push origin main
+
+DOCKER
+------
+sudo docker exec -it <>  bash
+sudo docker-compose up
+

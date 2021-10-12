@@ -2,4 +2,6 @@ version: '3'
 services:
   just:
     build: .
+    volumes: 
+      - /home/mahesh/git/rust:/home/rust
     command: tail -F anything
