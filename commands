@@ -9,4 +9,19 @@ DOCKER
 sudo docker exec -it <>  bash
 sudo docker-compose up
 
+Linux - Ubuntu
+--------------
 
+Rust - Build
+------------
+sudo apt-get update
+apt install git-all
+apt-get install python3
+python3 --version
+apt install git
+apt install curl
+apt install build-essential
+apt install cmake
+apt install ninja-build
+
+python3 x.py build
