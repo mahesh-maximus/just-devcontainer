@@ -1,0 +1,36 @@
+GIT 
+----
+git push origin main
+git config --global alias.add-commit '!git add -A && git commit'
+git add-commit -m 'My commit message'
+
+DOCKER
+------
+sudo docker exec -it <>  bash
+sudo docker-compose up
+
+https://stackoverflow.com/questions/32612650/how-to-get-docker-compose-to-always-re-create-containers-from-fresh-images
+sudo docker-compose rm -f
+sudo docker-compose pull
+sudo docker-compose up --build -d
+# Run some tests
+./tests
+docker-compose stop -t 1
+
+
+Linux - Ubuntu
+--------------
+
+Rust - Build
+------------
+sudo apt-get update
+apt install git-all
+apt-get install python3
+python3 --version
+apt install git
+apt install curl
+apt install build-essential
+apt install cmake
+apt install ninja-build
+
+python3 x.py build
