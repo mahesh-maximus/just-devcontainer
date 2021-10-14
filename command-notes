@@ -8,6 +8,9 @@ DOCKER
 ------
 sudo docker exec -it <>  bash
 sudo docker-compose up
+sudo docker system prune -a
+sudo docker-compose up --build -d
+sudo docker exec -it just-devcontainer_just_1  bash
 
 https://stackoverflow.com/questions/32612650/how-to-get-docker-compose-to-always-re-create-containers-from-fresh-images
 sudo docker-compose rm -f
@@ -20,6 +23,8 @@ docker-compose stop -t 1
 
 Linux - Ubuntu
 --------------
+grep -rnw '/home/mahesh/git/rust' -e 'Available codegen options' --include=\*.{rs} 
+grep --include=\*.{rs} -rnw '/home/mahesh/git/rust' -e "Available codegen options"
 
 Rust - Build
 ------------
