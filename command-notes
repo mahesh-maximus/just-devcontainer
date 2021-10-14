@@ -39,3 +39,5 @@ apt install cmake
 apt install ninja-build
 
 python3 x.py build
+
+python3 x.py test  src/test/ui/hello_world/main.rs
